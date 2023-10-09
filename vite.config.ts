@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://andresalba.github.io/corservaV1/'
+  //base: 'https://andresalba.github.io/corservaV1/'
 })
