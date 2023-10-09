@@ -1,0 +1,57 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/base/base";
+
+.step-container {
+  display: flex;
+  flex-direction: row;
+  height: 33px;
+  width: 135px;
+  font-family: $font-family-ubuntu;
+}
+
+.step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  background-color: $sky-blue;
+  border-radius: 50%;
+  color: $denim;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.step-indinull {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.step-info {
+  margin-left: 16px;
+}
+
+.step-num {
+  color: $light-blue;
+  font-size: 12px;
+}
+
+.step-current {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 940px) {
+  .step-info {
+    display: none;
+  }
+}

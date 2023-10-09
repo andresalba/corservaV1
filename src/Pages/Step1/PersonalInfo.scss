@@ -1,0 +1,68 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/common";
+
+.personal-cont {
+  @extend .container-class;
+}
+
+.personal-fill {
+  width: 100%;
+  height: 26%;
+  display: flex;
+  color: $denim;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.personal-input {
+  width: 95%;
+  border-radius: 5px;
+  height: 48px;
+  margin-top: 8px;
+  border-color: $border-color;
+  border-style: solid;
+  padding-left: 16px;
+}
+
+.personal-input::placeholder {
+  color: $grey;
+}
+
+.personal-input.empty {
+  border-color: $red-errors;
+}
+
+.personal-input:focus {
+  outline: none;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 940px) {
+  .personal-cont {
+    margin-top: 13%;
+    position: absolute;
+    z-index: 2;
+    border-radius: 15px;
+    padding: 1%;
+    background-color: white;
+  }
+}
+
+.person-error {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.error-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: $red-errors;
+  margin-right: 1%;
+}

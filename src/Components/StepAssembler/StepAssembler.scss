@@ -1,0 +1,19 @@
+@import "../../scss/abstracts/variables";
+
+.step {
+  display: flex;
+  flex-direction: row;
+  height: 97%;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg;
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,30 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.imgCont {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.imag {
+  width: "40px";
+  height: "40px";
+}
+
+.divtitle {
+  @include subtitle-L;
+  margin-top: 39px;
+  font-weight: bold;
+}
+
+.divcost {
+  margin-top: 5px;
+  color: $grey;
+  font-size: 14px;
+}
+
+.divpromo {
+  margin-top: 3px;
+  color: $denim;
+  font-size: 12px;
+}

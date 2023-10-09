@@ -1,0 +1,22 @@
+@import "../../scss/abstracts/common";
+
+.finish-cont {
+  @extend .container-class;
+}
+
+.finish-btn {
+  width: 123px;
+  height: 48px;
+  background-color: #928cff;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.finish-btncont {
+  @extend .footer-class;
+  margin-top: 16.5%;
+}
